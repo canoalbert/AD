@@ -1,7 +1,6 @@
 import java.io.*;
-import java.nio.Buffer;
 
-public class ejecuta {
+public class Gestion {
     public static void main(String[] args) throws IOException {
         File fichero = new File("FicheroData.bat");
 
