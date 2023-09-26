@@ -17,7 +17,7 @@ public class ejecuta {
 
     public static void CargarCantidad(File fichero)  throws IOException, ClassNotFoundException {
 
-            Process ProcespHijo = new ProcessBuilder();
+            Process ProcespHijo = new ProcessBuilder().start();
 
 
 
@@ -25,16 +25,10 @@ public class ejecuta {
 
     }
     public static void AbonarCantidad(File fichero) throws IOException{
-        try {
 
-        }catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
 
-        }catch (EOFException eofe){
-            System.out.println("Fin del fichero");
-        }catch (IOException ioe){
-            System.out.println("Error en Lectura de fichero" +ioe);
-        }
+
+
 
     }
 

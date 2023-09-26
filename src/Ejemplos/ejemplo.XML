@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<empleados>
+    <empleado alias="Nini">
+        <id>1</id>
+        <nombre>Manuel</nombre>
+        <apellidos>grcia Roca</apellidos>
+        <departamento>Desempleado</departamento>
+        <departamento>Carterista</departamento>
+        <salario>0</salario>
+    </empleado>
+    <empleado alias="La crack">
+        <id>2</id>
+        <nombre>Susana</nombre>
+        <apellidos>Llorente Macias</apellidos>
+        <departamento>Ingieneria</departamento>
+        <salario>23000</salario>
+    </empleado>
+</empleados>
