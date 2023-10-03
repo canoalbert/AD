@@ -1,7 +1,5 @@
 package binariosObject;
 
-import javafx.beans.binding.When;
-
 import java.io.*;
 
 public class BinariosObject {
