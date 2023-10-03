@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tienda>
+    <coche precio="14000">
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <combustible>Gasolina</combustible>
+        <cilindrada>1400</cilindrada>
+        <potencia>100 cv</potencia>
+    </coche>
+    <coche precio="34000">
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <combustible>Diesel</combustible>
+        <cilindrada>1968</cilindrada>
+        <potencia>140 cv</potencia>
+    </coche>
+    <coche precio="34000">
+        <marca>Bmw</marca>
+        <modelo>325d Berlina</modelo>
+        <combustible>Diesel</combustible>
+        <cilindrada>1995</cilindrada>
+        <potencia>218 cv</potencia>
+    </coche>
+</tienda>
