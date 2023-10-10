@@ -24,7 +24,7 @@ public class Manejador extends DefaultHandler {
         valor = null;
         if (qName.equals("coche")){
             coche = new Coche();
-            String precio = attributes.getValue("precio");
+            int precio = Integer.parseInt(attributes.getValue("precio"));
             coche.setPrecio(precio);
         }
     }
@@ -37,7 +37,6 @@ public class Manejador extends DefaultHandler {
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         switch (qName){
-            case "precio" -> coche.setPrecio(valor);
             case "marca" -> coche.setMarca(valor);
             case "modelo" -> coche.setModelo(valor);
             case "combustible" -> coche.setCombustible(valor);

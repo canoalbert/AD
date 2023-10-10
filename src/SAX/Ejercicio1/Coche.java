@@ -1,14 +1,22 @@
 package SAX.Ejercicio1;
 
 public class Coche {
-    private String precio;
+    private int precio;
     private String marca;
     private String modelo;
     private String combustible;
     private int cilindrada;
     private String potencia;
 
-    public Coche(String precio, String marca, String modelo, String combustible, int cilindrada, String potencia) {
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    public Coche(int precio, String marca, String modelo, String combustible, int cilindrada, String potencia) {
         this.precio = precio;
         this.marca = marca;
         this.modelo = modelo;
@@ -18,13 +26,7 @@ public class Coche {
     }
 
 
-    public String getPrecio() {
-        return precio;
-    }
 
-    public void setPrecio(String precio) {
-        this.precio = precio;
-    }
 
     public String getMarca() {
         return marca;
